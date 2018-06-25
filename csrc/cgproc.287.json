@@ -1,0 +1,71 @@
+{
+    "Modules": {
+        "testbench": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "...MASTER...": {},
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "lc3Interface": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "out": "amcQw_d.o",
+            "bytes": 4564,
+            "mode": 4,
+            "archive": "archive.0/_287_archive_1.a"
+        },
+        "reYIK_d": {
+            "mod": "std",
+            "out": "reYIK_d.o",
+            "bytes": 18556,
+            "mode": 4,
+            "archive": "archive.0/_287_archive_1.a"
+        },
+        "ZzNQ8_d": {
+            "mod": "lc3Interface",
+            "out": "ZzNQ8_d.o",
+            "bytes": 5930,
+            "mode": 4,
+            "archive": "archive.0/_287_archive_1.a"
+        },
+        "iAVhC_d": {
+            "mod": "testbench",
+            "out": "iAVhC_d.o",
+            "bytes": 27552,
+            "mode": 4,
+            "archive": "archive.0/_287_archive_1.a"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.0/_287_archive_1.a",
+            "objects": [
+                [
+                    "amcQw_d.o",
+                    4564
+                ],
+                [
+                    "reYIK_d.o",
+                    18556
+                ],
+                [
+                    "ZzNQ8_d.o",
+                    5930
+                ],
+                [
+                    "iAVhC_d.o",
+                    27552
+                ]
+            ],
+            "size": 56602
+        }
+    ]
+}
